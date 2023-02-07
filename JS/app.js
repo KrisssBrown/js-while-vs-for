@@ -1,10 +1,40 @@
 
-const num
+let num
 
-const resto 
+// const resto = num % 2
 
 let dispari = []
 
-for (null; dispari.lenght <=10; null ){
+
+// for (i = 0; i < 10; i++) {
     
+//     num = parseInt(prompt('Inserisci un numero'))
+//     const resto = num % 2
+
+//     if (resto === 1) {
+//         dispari.push(num)
+//     }
+// }
+// console.log(dispari)
+
+
+// // // // // // // // // // // // //
+
+while (dispari.length < 10) {
+    
+    num = parseInt(prompt('Inserisci un numero'))
+    const resto = num % 2
+
+    if (resto === 1) {
+        dispari.push(num)
+    }
 }
+console.log(dispari)
+
+
+// // // // // // // // // // // // // 
+
+for (i=0; i < dispari.length; i++){
+    console.log(dispari[i])
+}
+
