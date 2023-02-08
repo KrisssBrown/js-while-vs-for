@@ -17,9 +17,6 @@ let dispari = []
 // }
 // console.log(dispari)
 
-
-// // // // // // // // // // // // //
-
 while (dispari.length < 10) {
     
     num = parseInt(prompt('Inserisci un numero'))
@@ -32,9 +29,14 @@ while (dispari.length < 10) {
 console.log(dispari)
 
 
-// // // // // // // // // // // // // 
+// // // // // // // // // // // // // #2
 
 for (i=0; i < dispari.length; i++){
     console.log(dispari[i])
 }
+
+
+// // // // // // // // // // // // // // // BONUS
+
+
 
